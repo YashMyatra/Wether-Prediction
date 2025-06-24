@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # Load models
-weather_classification = pickle.load(open("C:/Users/Yash/OneDrive/Desktop/Weather Classification/weather_data.sav", 'rb'))
+weather_classification = pickle.load(open("weather_data.sav", 'rb'))
 
 # Diabetes Prediction
 
